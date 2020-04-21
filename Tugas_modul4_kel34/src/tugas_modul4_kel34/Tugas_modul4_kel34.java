@@ -19,7 +19,7 @@ public class Tugas_modul4_kel34 {
     static void metode_bayar(){
         System.out.println("===================================================");
         System.out.println("Segera proses pembayaran anda, untuk mencetak tiket");
-        System.out.println("Dapat melalui E-Banking,Kartu Kredit,ATM,Alfamarett");
+        System.out.println("Pembayaran dapat melalui E-Banking,Kartu Kredit,ATM,Alfamarett");
         System.out.println("Cek SMS/email anda untuk melihat kode dan link pembayaran ");
         System.out.println("===================================================");
     }
@@ -44,7 +44,7 @@ public class Tugas_modul4_kel34 {
         
         int kondisi = 1;
         while (kondisi == 1){
-            System.out.println("Masukkan kode pilihan anda");
+            System.out.println("Masukkan kode pilihan Anda");
             int kode = in.nextInt();    
             switch (kode){
                 case(1):
@@ -73,11 +73,11 @@ public class Tugas_modul4_kel34 {
                     objek.akhir();
                     break;
                 case(6):
-                    System.out.println("Terima kasih telah menggunakan program ini");
+                    System.out.println("Terima Kasih telah menggunakan program ini");
                     System.exit(0);
                     break;
                 default:
-                    System.out.println("Tidak ada dalam pilihan\n");
+                    System.out.println("Tidak terdapat dalam pilihan\n");
                     break;  
             }
         }
